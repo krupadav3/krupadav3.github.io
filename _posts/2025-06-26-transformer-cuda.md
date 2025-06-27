@@ -5,6 +5,6 @@ categories: [transformers, cuda, llms]
 layout: single
 ---
 
-I wanted to deeply understand how LLMs work — so I built a Transformer encoder block from scratch using raw CUDA.
+# Bag of Words (BoW) Model
 
-This post documents my journey through attention mechanisms, matrix multiplication, GPU optimization, and building in public.
+The Bag of Words (BoW) model was introduced to answer a very simple question: **how do you teach a computer to understand text?**. The idea is simple. This model ignores grammar and word order, and focuses only on word frequency:
